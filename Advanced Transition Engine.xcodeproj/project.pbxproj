@@ -10,7 +10,7 @@
 		A12C6DBF1BC42D6B008F677F /* ATEAnimatedViewTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A12C6DBE1BC42D6B008F677F /* ATEAnimatedViewTransition.h */; settings = {ASSET_TAGS = (); }; };
 		A12C6DC01BC42D9E008F677F /* ATEAnimatedViewTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A12C6DBE1BC42D6B008F677F /* ATEAnimatedViewTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A14C43831BC2DF3C00F5508B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C43821BC2DF3C00F5508B /* AppDelegate.swift */; };
-		A14C43851BC2DF3C00F5508B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C43841BC2DF3C00F5508B /* ViewController.swift */; };
+		A14C43851BC2DF3C00F5508B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C43841BC2DF3C00F5508B /* SecondViewController.swift */; };
 		A14C43881BC2DF3C00F5508B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14C43861BC2DF3C00F5508B /* Main.storyboard */; };
 		A14C438A1BC2DF3C00F5508B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14C43891BC2DF3C00F5508B /* Assets.xcassets */; };
 		A14C438D1BC2DF3C00F5508B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14C438B1BC2DF3C00F5508B /* LaunchScreen.storyboard */; };
@@ -34,6 +34,7 @@
 		A14C43E51BC3BF8600F5508B /* ATEAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A14C43B21BC3A86600F5508B /* ATEAnimator.m */; settings = {ASSET_TAGS = (); }; };
 		A14C43E71BC3C36300F5508B /* ATEAnimatedViewControllerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A14C43E61BC3C36300F5508B /* ATEAnimatedViewControllerTransition.h */; settings = {ASSET_TAGS = (); }; };
 		A14C43E81BC3C36300F5508B /* ATEAnimatedViewControllerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A14C43E61BC3C36300F5508B /* ATEAnimatedViewControllerTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A155C6AF1BC555790004D2E2 /* DemoTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A155C6AE1BC555790004D2E2 /* DemoTransitionView.swift */; settings = {ASSET_TAGS = (); }; };
 		A17160FB1BC4126D006380F2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17160FA1BC4126D006380F2 /* FirstViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A1936AF31BC3FE6E00A40887 /* ATEInteractiveTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = A1936AF11BC3FE6E00A40887 /* ATEInteractiveTransitioning.h */; settings = {ASSET_TAGS = (); }; };
 		A1936AF41BC3FE6E00A40887 /* ATEInteractiveTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = A1936AF21BC3FE6E00A40887 /* ATEInteractiveTransitioning.m */; settings = {ASSET_TAGS = (); }; };
@@ -108,7 +109,7 @@
 		A14C43701BC2DF1C00F5508B /* libAdvanced Transition Engine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libAdvanced Transition Engine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14C43801BC2DF3C00F5508B /* Advanced Transition Engine Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced Transition Engine Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14C43821BC2DF3C00F5508B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A14C43841BC2DF3C00F5508B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A14C43841BC2DF3C00F5508B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A14C43871BC2DF3C00F5508B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A14C43891BC2DF3C00F5508B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A14C438C1BC2DF3C00F5508B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -132,6 +133,7 @@
 		A14C43D31BC3BF2F00F5508B /* ATETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATETests.m; sourceTree = "<group>"; };
 		A14C43D51BC3BF2F00F5508B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14C43E61BC3C36300F5508B /* ATEAnimatedViewControllerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATEAnimatedViewControllerTransition.h; sourceTree = "<group>"; };
+		A155C6AE1BC555790004D2E2 /* DemoTransitionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTransitionView.swift; sourceTree = "<group>"; };
 		A17160FA1BC4126D006380F2 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		A17161001BC41921006380F2 /* AdvancedTransitionEngine.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AdvancedTransitionEngine.podspec; sourceTree = "<group>"; };
 		A1936AF11BC3FE6E00A40887 /* ATEInteractiveTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATEInteractiveTransitioning.h; sourceTree = "<group>"; };
@@ -233,13 +235,14 @@
 			isa = PBXGroup;
 			children = (
 				A14C43821BC2DF3C00F5508B /* AppDelegate.swift */,
-				A14C43841BC2DF3C00F5508B /* ViewController.swift */,
 				A14C43861BC2DF3C00F5508B /* Main.storyboard */,
 				A14C43891BC2DF3C00F5508B /* Assets.xcassets */,
 				A14C438B1BC2DF3C00F5508B /* LaunchScreen.storyboard */,
 				A14C438E1BC2DF3C00F5508B /* Info.plist */,
 				A14C43B01BC3A7B900F5508B /* Advanced-Transition-Engine-Bridging-Header.h */,
 				A17160FA1BC4126D006380F2 /* FirstViewController.swift */,
+				A14C43841BC2DF3C00F5508B /* SecondViewController.swift */,
+				A155C6AE1BC555790004D2E2 /* DemoTransitionView.swift */,
 			);
 			path = "Advanced Transition Engine Demo";
 			sourceTree = "<group>";
@@ -533,7 +536,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17160FB1BC4126D006380F2 /* FirstViewController.swift in Sources */,
-				A14C43851BC2DF3C00F5508B /* ViewController.swift in Sources */,
+				A14C43851BC2DF3C00F5508B /* SecondViewController.swift in Sources */,
+				A155C6AF1BC555790004D2E2 /* DemoTransitionView.swift in Sources */,
 				A14C43831BC2DF3C00F5508B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

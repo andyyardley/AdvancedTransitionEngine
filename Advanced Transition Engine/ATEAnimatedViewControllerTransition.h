@@ -31,7 +31,7 @@ typedef NS_ENUM(NSUInteger, ATETransitionState) {
 - (nullable NSArray *)keysForViewsToTransition; // Called on the to view controller to establish which views in can receive
 - (CGRect)frameforTransitionViewWithKey:(nonnull NSString *)key; // Called on the to view controller to get the final position of the transition views
 - (nullable UIView<ATEAnimatedViewTransition> *)transitionViewForKey:(nonnull NSString *)key; // **Returns a copy** Called on the from view controller for each key supported by the to view controller
-- (void)transitionViewsForKeys:(nonnull NSArray *)keysAndTransitionViews; // Called on the to view controller once all the available views have been collected from the from controller
+- (void)transitionViewsForKeys:(nonnull NSDictionary *)keysAndTransitionViews; // Called on the to view controller once all the available views have been collected from the from controller
 
 @end
 

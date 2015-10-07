@@ -63,6 +63,36 @@
     else
         [containerView addSubview:toView];
     
+    /////
+    
+    if ([toViewController respondsToSelector:@selector(keysForViewsToTransition)] && [fromViewController respondsToSelector:@selector(transitionViewForKey:)])
+    {
+        NSArray *keyForViews = [toViewController keysForViewsToTransition];
+        for (NSString *key in keyForViews)
+        {
+            UIView *originalTransitionView = [fromViewController transitionViewForKey:key];
+            originalTransitionView.hidden = YES;
+            UIView *transitionView = [originalTransitionView copy];
+            [containerView addSubview:transitionView];
+            [containerView bringSubviewToFront:transitionView];
+            [transitionView removeConstraints:transitionView.constraints];
+            transitionView.translatesAutoresizingMaskIntoConstraints = NO;
+            if (transitionView)
+            {
+                CGRect finalFrame = [toViewController frameforTransitionViewWithKey:key];
+                [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
+                    transitionView.frame = finalFrame;
+                    NSLog(@"%@", transitionView);
+                } completion:^(BOOL finished) {
+                    [transitionView removeFromSuperview];
+                    [toViewController transitionViewsForKeys:@{key: transitionView}];
+                }];
+            }
+        }
+    }
+    
+    /////
+    
     [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
         [fromViewController transitionViewLayoutForState:fromState percentage:1.f];
         [toViewController transitionViewLayoutForState:toState percentage:1.f];
