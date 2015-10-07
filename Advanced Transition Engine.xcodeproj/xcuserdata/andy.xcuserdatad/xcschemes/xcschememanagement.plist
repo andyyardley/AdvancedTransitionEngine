@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ATE.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Advanced Transition Engine Demo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Advanced Transition Engine.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +23,31 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>A14C436F1BC2DF1C00F5508B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A14C437F1BC2DF3C00F5508B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A14C43921BC2DF3C00F5508B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A14C439D1BC2DF3C00F5508B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A14C43C21BC3BF2E00F5508B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A14C43CB1BC3BF2E00F5508B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

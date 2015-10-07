@@ -1,13 +1,13 @@
 //
-//  Advanced_Transition_Engine.h
+//  ATEAnimatedViewTransition.h
 //  Advanced Transition Engine
 //
-//  Created by Andy on 05/10/2015.
+//  Created by Andy on 06/10/2015.
 //  Copyright © 2015 niveusrosea. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface Advanced_Transition_Engine : NSObject
+@protocol ATEAnimatedViewTransition <NSCopying>
 
 @end

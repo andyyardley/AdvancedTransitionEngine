@@ -7,9 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A14C43741BC2DF1C00F5508B /* Advanced_Transition_Engine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A14C43731BC2DF1C00F5508B /* Advanced_Transition_Engine.h */; };
-		A14C43761BC2DF1C00F5508B /* Advanced_Transition_Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = A14C43751BC2DF1C00F5508B /* Advanced_Transition_Engine.m */; };
+		A12C6DBF1BC42D6B008F677F /* ATEAnimatedViewTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A12C6DBE1BC42D6B008F677F /* ATEAnimatedViewTransition.h */; settings = {ASSET_TAGS = (); }; };
+		A12C6DC01BC42D9E008F677F /* ATEAnimatedViewTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A12C6DBE1BC42D6B008F677F /* ATEAnimatedViewTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14C43831BC2DF3C00F5508B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C43821BC2DF3C00F5508B /* AppDelegate.swift */; };
+		A14C43851BC2DF3C00F5508B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C43841BC2DF3C00F5508B /* ViewController.swift */; };
+		A14C43881BC2DF3C00F5508B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14C43861BC2DF3C00F5508B /* Main.storyboard */; };
+		A14C438A1BC2DF3C00F5508B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14C43891BC2DF3C00F5508B /* Assets.xcassets */; };
+		A14C438D1BC2DF3C00F5508B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14C438B1BC2DF3C00F5508B /* LaunchScreen.storyboard */; };
+		A14C43981BC2DF3C00F5508B /* Advanced_Transition_Engine_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C43971BC2DF3C00F5508B /* Advanced_Transition_Engine_DemoTests.swift */; };
+		A14C43A31BC2DF3C00F5508B /* Advanced_Transition_Engine_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C43A21BC2DF3C00F5508B /* Advanced_Transition_Engine_DemoUITests.swift */; };
+		A14C43B31BC3A86600F5508B /* ATEAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A14C43B21BC3A86600F5508B /* ATEAnimator.m */; settings = {ASSET_TAGS = (); }; };
+		A14C43B61BC3BB8900F5508B /* ATENavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A14C43B51BC3BB8900F5508B /* ATENavigationControllerDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		A14C43B91BC3BE7300F5508B /* ATEAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = A14C43B11BC3A86600F5508B /* ATEAnimator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A14C43BA1BC3BE7600F5508B /* ATENavigationControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A14C43B41BC3BB8900F5508B /* ATENavigationControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14C43BB1BC3BE9A00F5508B /* ATEAnimator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A14C43B11BC3A86600F5508B /* ATEAnimator.h */; };
+		A14C43BC1BC3BE9D00F5508B /* ATENavigationControllerDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A14C43B41BC3BB8900F5508B /* ATENavigationControllerDelegate.h */; };
+		A14C43C61BC3BF2E00F5508B /* ATE.h in Headers */ = {isa = PBXBuildFile; fileRef = A14C43C51BC3BF2E00F5508B /* ATE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14C43CD1BC3BF2F00F5508B /* ATE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14C43C31BC3BF2E00F5508B /* ATE.framework */; settings = {ASSET_TAGS = (); }; };
+		A14C43D41BC3BF2F00F5508B /* ATETests.m in Sources */ = {isa = PBXBuildFile; fileRef = A14C43D31BC3BF2F00F5508B /* ATETests.m */; };
+		A14C43D81BC3BF2F00F5508B /* ATE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14C43C31BC3BF2E00F5508B /* ATE.framework */; };
+		A14C43D91BC3BF2F00F5508B /* ATE.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A14C43C31BC3BF2E00F5508B /* ATE.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A14C43E11BC3BF4000F5508B /* ATE.h in Headers */ = {isa = PBXBuildFile; fileRef = A14C43B71BC3BC6D00F5508B /* ATE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14C43E21BC3BF4300F5508B /* ATENavigationControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A14C43B41BC3BB8900F5508B /* ATENavigationControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14C43E31BC3BF4500F5508B /* ATEAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = A14C43B11BC3A86600F5508B /* ATEAnimator.h */; settings = {ASSET_TAGS = (); }; };
+		A14C43E41BC3BF8300F5508B /* ATENavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A14C43B51BC3BB8900F5508B /* ATENavigationControllerDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		A14C43E51BC3BF8600F5508B /* ATEAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = A14C43B21BC3A86600F5508B /* ATEAnimator.m */; settings = {ASSET_TAGS = (); }; };
+		A14C43E71BC3C36300F5508B /* ATEAnimatedViewControllerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A14C43E61BC3C36300F5508B /* ATEAnimatedViewControllerTransition.h */; settings = {ASSET_TAGS = (); }; };
+		A14C43E81BC3C36300F5508B /* ATEAnimatedViewControllerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A14C43E61BC3C36300F5508B /* ATEAnimatedViewControllerTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A17160FB1BC4126D006380F2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17160FA1BC4126D006380F2 /* FirstViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A1936AF31BC3FE6E00A40887 /* ATEInteractiveTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = A1936AF11BC3FE6E00A40887 /* ATEInteractiveTransitioning.h */; settings = {ASSET_TAGS = (); }; };
+		A1936AF41BC3FE6E00A40887 /* ATEInteractiveTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = A1936AF21BC3FE6E00A40887 /* ATEInteractiveTransitioning.m */; settings = {ASSET_TAGS = (); }; };
+		A1936AF51BC3FE7100A40887 /* ATEInteractiveTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = A1936AF21BC3FE6E00A40887 /* ATEInteractiveTransitioning.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A14C43941BC2DF3C00F5508B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14C43681BC2DF1C00F5508B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14C437F1BC2DF3C00F5508B;
+			remoteInfo = "Advanced Transition Engine Demo";
+		};
+		A14C439F1BC2DF3C00F5508B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14C43681BC2DF1C00F5508B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14C437F1BC2DF3C00F5508B;
+			remoteInfo = "Advanced Transition Engine Demo";
+		};
+		A14C43CE1BC3BF2F00F5508B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14C43681BC2DF1C00F5508B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14C43C21BC3BF2E00F5508B;
+			remoteInfo = ATE;
+		};
+		A14C43D01BC3BF2F00F5508B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14C43681BC2DF1C00F5508B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14C437F1BC2DF3C00F5508B;
+			remoteInfo = "Advanced Transition Engine Demo";
+		};
+		A14C43D61BC3BF2F00F5508B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A14C43681BC2DF1C00F5508B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A14C43C21BC3BF2E00F5508B;
+			remoteInfo = ATE;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A14C436E1BC2DF1C00F5508B /* CopyFiles */ = {
@@ -18,16 +85,57 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				A14C43741BC2DF1C00F5508B /* Advanced_Transition_Engine.h in CopyFiles */,
+				A14C43BB1BC3BE9A00F5508B /* ATEAnimator.h in CopyFiles */,
+				A14C43BC1BC3BE9D00F5508B /* ATENavigationControllerDelegate.h in CopyFiles */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C43DD1BC3BF2F00F5508B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A14C43D91BC3BF2F00F5508B /* ATE.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A12C6DBE1BC42D6B008F677F /* ATEAnimatedViewTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATEAnimatedViewTransition.h; sourceTree = "<group>"; };
 		A14C43701BC2DF1C00F5508B /* libAdvanced Transition Engine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libAdvanced Transition Engine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A14C43731BC2DF1C00F5508B /* Advanced_Transition_Engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Advanced_Transition_Engine.h; sourceTree = "<group>"; };
-		A14C43751BC2DF1C00F5508B /* Advanced_Transition_Engine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Advanced_Transition_Engine.m; sourceTree = "<group>"; };
+		A14C43801BC2DF3C00F5508B /* Advanced Transition Engine Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced Transition Engine Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14C43821BC2DF3C00F5508B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A14C43841BC2DF3C00F5508B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A14C43871BC2DF3C00F5508B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A14C43891BC2DF3C00F5508B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A14C438C1BC2DF3C00F5508B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A14C438E1BC2DF3C00F5508B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14C43931BC2DF3C00F5508B /* Advanced Transition Engine DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced Transition Engine DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14C43971BC2DF3C00F5508B /* Advanced_Transition_Engine_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_Transition_Engine_DemoTests.swift; sourceTree = "<group>"; };
+		A14C43991BC2DF3C00F5508B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14C439E1BC2DF3C00F5508B /* Advanced Transition Engine DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced Transition Engine DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14C43A21BC2DF3C00F5508B /* Advanced_Transition_Engine_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_Transition_Engine_DemoUITests.swift; sourceTree = "<group>"; };
+		A14C43A41BC2DF3C00F5508B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14C43B01BC3A7B900F5508B /* Advanced-Transition-Engine-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Advanced-Transition-Engine-Bridging-Header.h"; sourceTree = "<group>"; };
+		A14C43B11BC3A86600F5508B /* ATEAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATEAnimator.h; sourceTree = "<group>"; };
+		A14C43B21BC3A86600F5508B /* ATEAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATEAnimator.m; sourceTree = "<group>"; };
+		A14C43B41BC3BB8900F5508B /* ATENavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATENavigationControllerDelegate.h; sourceTree = "<group>"; };
+		A14C43B51BC3BB8900F5508B /* ATENavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATENavigationControllerDelegate.m; sourceTree = "<group>"; };
+		A14C43B71BC3BC6D00F5508B /* ATE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATE.h; sourceTree = "<group>"; };
+		A14C43C31BC3BF2E00F5508B /* ATE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ATE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14C43C51BC3BF2E00F5508B /* ATE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATE.h; sourceTree = "<group>"; };
+		A14C43C71BC3BF2E00F5508B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14C43CC1BC3BF2E00F5508B /* ATETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14C43D31BC3BF2F00F5508B /* ATETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ATETests.m; sourceTree = "<group>"; };
+		A14C43D51BC3BF2F00F5508B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14C43E61BC3C36300F5508B /* ATEAnimatedViewControllerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATEAnimatedViewControllerTransition.h; sourceTree = "<group>"; };
+		A17160FA1BC4126D006380F2 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		A17161001BC41921006380F2 /* AdvancedTransitionEngine.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AdvancedTransitionEngine.podspec; sourceTree = "<group>"; };
+		A1936AF11BC3FE6E00A40887 /* ATEInteractiveTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATEInteractiveTransitioning.h; sourceTree = "<group>"; };
+		A1936AF21BC3FE6E00A40887 /* ATEInteractiveTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATEInteractiveTransitioning.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,13 +146,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A14C437D1BC2DF3C00F5508B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14C43D81BC3BF2F00F5508B /* ATE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C43901BC2DF3C00F5508B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C439B1BC2DF3C00F5508B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C43BF1BC3BF2E00F5508B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C43C91BC3BF2E00F5508B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14C43CD1BC3BF2F00F5508B /* ATE.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		A14C43671BC2DF1C00F5508B = {
 			isa = PBXGroup;
 			children = (
+				A17161001BC41921006380F2 /* AdvancedTransitionEngine.podspec */,
 				A14C43721BC2DF1C00F5508B /* Advanced Transition Engine */,
+				A14C43811BC2DF3C00F5508B /* Advanced Transition Engine Demo */,
+				A14C43961BC2DF3C00F5508B /* Advanced Transition Engine DemoTests */,
+				A14C43A11BC2DF3C00F5508B /* Advanced Transition Engine DemoUITests */,
+				A14C43C41BC3BF2E00F5508B /* ATE */,
+				A14C43D21BC3BF2F00F5508B /* ATETests */,
 				A14C43711BC2DF1C00F5508B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +204,11 @@
 			isa = PBXGroup;
 			children = (
 				A14C43701BC2DF1C00F5508B /* libAdvanced Transition Engine.a */,
+				A14C43801BC2DF3C00F5508B /* Advanced Transition Engine Demo.app */,
+				A14C43931BC2DF3C00F5508B /* Advanced Transition Engine DemoTests.xctest */,
+				A14C439E1BC2DF3C00F5508B /* Advanced Transition Engine DemoUITests.xctest */,
+				A14C43C31BC3BF2E00F5508B /* ATE.framework */,
+				A14C43CC1BC3BF2E00F5508B /* ATETests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,13 +216,99 @@
 		A14C43721BC2DF1C00F5508B /* Advanced Transition Engine */ = {
 			isa = PBXGroup;
 			children = (
-				A14C43731BC2DF1C00F5508B /* Advanced_Transition_Engine.h */,
-				A14C43751BC2DF1C00F5508B /* Advanced_Transition_Engine.m */,
+				A14C43B11BC3A86600F5508B /* ATEAnimator.h */,
+				A14C43B21BC3A86600F5508B /* ATEAnimator.m */,
+				A1936AF11BC3FE6E00A40887 /* ATEInteractiveTransitioning.h */,
+				A1936AF21BC3FE6E00A40887 /* ATEInteractiveTransitioning.m */,
+				A14C43B41BC3BB8900F5508B /* ATENavigationControllerDelegate.h */,
+				A14C43B51BC3BB8900F5508B /* ATENavigationControllerDelegate.m */,
+				A14C43B71BC3BC6D00F5508B /* ATE.h */,
+				A14C43E61BC3C36300F5508B /* ATEAnimatedViewControllerTransition.h */,
+				A12C6DBE1BC42D6B008F677F /* ATEAnimatedViewTransition.h */,
 			);
 			path = "Advanced Transition Engine";
 			sourceTree = "<group>";
 		};
+		A14C43811BC2DF3C00F5508B /* Advanced Transition Engine Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A14C43821BC2DF3C00F5508B /* AppDelegate.swift */,
+				A14C43841BC2DF3C00F5508B /* ViewController.swift */,
+				A14C43861BC2DF3C00F5508B /* Main.storyboard */,
+				A14C43891BC2DF3C00F5508B /* Assets.xcassets */,
+				A14C438B1BC2DF3C00F5508B /* LaunchScreen.storyboard */,
+				A14C438E1BC2DF3C00F5508B /* Info.plist */,
+				A14C43B01BC3A7B900F5508B /* Advanced-Transition-Engine-Bridging-Header.h */,
+				A17160FA1BC4126D006380F2 /* FirstViewController.swift */,
+			);
+			path = "Advanced Transition Engine Demo";
+			sourceTree = "<group>";
+		};
+		A14C43961BC2DF3C00F5508B /* Advanced Transition Engine DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A14C43971BC2DF3C00F5508B /* Advanced_Transition_Engine_DemoTests.swift */,
+				A14C43991BC2DF3C00F5508B /* Info.plist */,
+			);
+			path = "Advanced Transition Engine DemoTests";
+			sourceTree = "<group>";
+		};
+		A14C43A11BC2DF3C00F5508B /* Advanced Transition Engine DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A14C43A21BC2DF3C00F5508B /* Advanced_Transition_Engine_DemoUITests.swift */,
+				A14C43A41BC2DF3C00F5508B /* Info.plist */,
+			);
+			path = "Advanced Transition Engine DemoUITests";
+			sourceTree = "<group>";
+		};
+		A14C43C41BC3BF2E00F5508B /* ATE */ = {
+			isa = PBXGroup;
+			children = (
+				A14C43C51BC3BF2E00F5508B /* ATE.h */,
+				A14C43C71BC3BF2E00F5508B /* Info.plist */,
+			);
+			path = ATE;
+			sourceTree = "<group>";
+		};
+		A14C43D21BC3BF2F00F5508B /* ATETests */ = {
+			isa = PBXGroup;
+			children = (
+				A14C43D31BC3BF2F00F5508B /* ATETests.m */,
+				A14C43D51BC3BF2F00F5508B /* Info.plist */,
+			);
+			path = ATETests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A14C43B81BC3BE6B00F5508B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12C6DBF1BC42D6B008F677F /* ATEAnimatedViewTransition.h in Headers */,
+				A14C43C61BC3BF2E00F5508B /* ATE.h in Headers */,
+				A1936AF31BC3FE6E00A40887 /* ATEInteractiveTransitioning.h in Headers */,
+				A14C43BA1BC3BE7600F5508B /* ATENavigationControllerDelegate.h in Headers */,
+				A14C43E71BC3C36300F5508B /* ATEAnimatedViewControllerTransition.h in Headers */,
+				A14C43B91BC3BE7300F5508B /* ATEAnimator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C43C01BC3BF2E00F5508B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14C43E11BC3BF4000F5508B /* ATE.h in Headers */,
+				A14C43E21BC3BF4300F5508B /* ATENavigationControllerDelegate.h in Headers */,
+				A14C43E81BC3C36300F5508B /* ATEAnimatedViewControllerTransition.h in Headers */,
+				A14C43E31BC3BF4500F5508B /* ATEAnimator.h in Headers */,
+				A12C6DC01BC42D9E008F677F /* ATEAnimatedViewTransition.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A14C436F1BC2DF1C00F5508B /* Advanced Transition Engine */ = {
@@ -76,6 +318,7 @@
 				A14C436C1BC2DF1C00F5508B /* Sources */,
 				A14C436D1BC2DF1C00F5508B /* Frameworks */,
 				A14C436E1BC2DF1C00F5508B /* CopyFiles */,
+				A14C43B81BC3BE6B00F5508B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -85,6 +328,98 @@
 			productName = "Advanced Transition Engine";
 			productReference = A14C43701BC2DF1C00F5508B /* libAdvanced Transition Engine.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		A14C437F1BC2DF3C00F5508B /* Advanced Transition Engine Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14C43A51BC2DF3C00F5508B /* Build configuration list for PBXNativeTarget "Advanced Transition Engine Demo" */;
+			buildPhases = (
+				A14C437C1BC2DF3C00F5508B /* Sources */,
+				A14C437D1BC2DF3C00F5508B /* Frameworks */,
+				A14C437E1BC2DF3C00F5508B /* Resources */,
+				A14C43DD1BC3BF2F00F5508B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14C43D71BC3BF2F00F5508B /* PBXTargetDependency */,
+			);
+			name = "Advanced Transition Engine Demo";
+			productName = "Advanced Transition Engine Demo";
+			productReference = A14C43801BC2DF3C00F5508B /* Advanced Transition Engine Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A14C43921BC2DF3C00F5508B /* Advanced Transition Engine DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14C43A81BC2DF3C00F5508B /* Build configuration list for PBXNativeTarget "Advanced Transition Engine DemoTests" */;
+			buildPhases = (
+				A14C438F1BC2DF3C00F5508B /* Sources */,
+				A14C43901BC2DF3C00F5508B /* Frameworks */,
+				A14C43911BC2DF3C00F5508B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14C43951BC2DF3C00F5508B /* PBXTargetDependency */,
+			);
+			name = "Advanced Transition Engine DemoTests";
+			productName = "Advanced Transition Engine DemoTests";
+			productReference = A14C43931BC2DF3C00F5508B /* Advanced Transition Engine DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A14C439D1BC2DF3C00F5508B /* Advanced Transition Engine DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14C43AB1BC2DF3C00F5508B /* Build configuration list for PBXNativeTarget "Advanced Transition Engine DemoUITests" */;
+			buildPhases = (
+				A14C439A1BC2DF3C00F5508B /* Sources */,
+				A14C439B1BC2DF3C00F5508B /* Frameworks */,
+				A14C439C1BC2DF3C00F5508B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14C43A01BC2DF3C00F5508B /* PBXTargetDependency */,
+			);
+			name = "Advanced Transition Engine DemoUITests";
+			productName = "Advanced Transition Engine DemoUITests";
+			productReference = A14C439E1BC2DF3C00F5508B /* Advanced Transition Engine DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A14C43C21BC3BF2E00F5508B /* ATE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14C43DA1BC3BF2F00F5508B /* Build configuration list for PBXNativeTarget "ATE" */;
+			buildPhases = (
+				A14C43BE1BC3BF2E00F5508B /* Sources */,
+				A14C43BF1BC3BF2E00F5508B /* Frameworks */,
+				A14C43C01BC3BF2E00F5508B /* Headers */,
+				A14C43C11BC3BF2E00F5508B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATE;
+			productName = ATE;
+			productReference = A14C43C31BC3BF2E00F5508B /* ATE.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A14C43CB1BC3BF2E00F5508B /* ATETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14C43DE1BC3BF2F00F5508B /* Build configuration list for PBXNativeTarget "ATETests" */;
+			buildPhases = (
+				A14C43C81BC3BF2E00F5508B /* Sources */,
+				A14C43C91BC3BF2E00F5508B /* Frameworks */,
+				A14C43CA1BC3BF2E00F5508B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A14C43CF1BC3BF2F00F5508B /* PBXTargetDependency */,
+				A14C43D11BC3BF2F00F5508B /* PBXTargetDependency */,
+			);
+			name = ATETests;
+			productName = ATETests;
+			productReference = A14C43CC1BC3BF2E00F5508B /* ATETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +433,24 @@
 					A14C436F1BC2DF1C00F5508B = {
 						CreatedOnToolsVersion = 7.0.1;
 					};
+					A14C437F1BC2DF3C00F5508B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A14C43921BC2DF3C00F5508B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A14C437F1BC2DF3C00F5508B;
+					};
+					A14C439D1BC2DF3C00F5508B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A14C437F1BC2DF3C00F5508B;
+					};
+					A14C43C21BC3BF2E00F5508B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					A14C43CB1BC3BF2E00F5508B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = A14C437F1BC2DF3C00F5508B;
+					};
 				};
 			};
 			buildConfigurationList = A14C436B1BC2DF1C00F5508B /* Build configuration list for PBXProject "Advanced Transition Engine" */;
@@ -106,6 +459,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = A14C43671BC2DF1C00F5508B;
 			productRefGroup = A14C43711BC2DF1C00F5508B /* Products */;
@@ -113,20 +467,159 @@
 			projectRoot = "";
 			targets = (
 				A14C436F1BC2DF1C00F5508B /* Advanced Transition Engine */,
+				A14C437F1BC2DF3C00F5508B /* Advanced Transition Engine Demo */,
+				A14C43921BC2DF3C00F5508B /* Advanced Transition Engine DemoTests */,
+				A14C439D1BC2DF3C00F5508B /* Advanced Transition Engine DemoUITests */,
+				A14C43C21BC3BF2E00F5508B /* ATE */,
+				A14C43CB1BC3BF2E00F5508B /* ATETests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14C437E1BC2DF3C00F5508B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14C438D1BC2DF3C00F5508B /* LaunchScreen.storyboard in Resources */,
+				A14C438A1BC2DF3C00F5508B /* Assets.xcassets in Resources */,
+				A14C43881BC2DF3C00F5508B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C43911BC2DF3C00F5508B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C439C1BC2DF3C00F5508B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C43C11BC3BF2E00F5508B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C43CA1BC3BF2E00F5508B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A14C436C1BC2DF1C00F5508B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A14C43761BC2DF1C00F5508B /* Advanced_Transition_Engine.m in Sources */,
+				A14C43B61BC3BB8900F5508B /* ATENavigationControllerDelegate.m in Sources */,
+				A1936AF41BC3FE6E00A40887 /* ATEInteractiveTransitioning.m in Sources */,
+				A14C43B31BC3A86600F5508B /* ATEAnimator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C437C1BC2DF3C00F5508B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17160FB1BC4126D006380F2 /* FirstViewController.swift in Sources */,
+				A14C43851BC2DF3C00F5508B /* ViewController.swift in Sources */,
+				A14C43831BC2DF3C00F5508B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C438F1BC2DF3C00F5508B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14C43981BC2DF3C00F5508B /* Advanced_Transition_Engine_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C439A1BC2DF3C00F5508B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14C43A31BC2DF3C00F5508B /* Advanced_Transition_Engine_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C43BE1BC3BF2E00F5508B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14C43E41BC3BF8300F5508B /* ATENavigationControllerDelegate.m in Sources */,
+				A1936AF51BC3FE7100A40887 /* ATEInteractiveTransitioning.m in Sources */,
+				A14C43E51BC3BF8600F5508B /* ATEAnimator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14C43C81BC3BF2E00F5508B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14C43D41BC3BF2F00F5508B /* ATETests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A14C43951BC2DF3C00F5508B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14C437F1BC2DF3C00F5508B /* Advanced Transition Engine Demo */;
+			targetProxy = A14C43941BC2DF3C00F5508B /* PBXContainerItemProxy */;
+		};
+		A14C43A01BC2DF3C00F5508B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14C437F1BC2DF3C00F5508B /* Advanced Transition Engine Demo */;
+			targetProxy = A14C439F1BC2DF3C00F5508B /* PBXContainerItemProxy */;
+		};
+		A14C43CF1BC3BF2F00F5508B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14C43C21BC3BF2E00F5508B /* ATE */;
+			targetProxy = A14C43CE1BC3BF2F00F5508B /* PBXContainerItemProxy */;
+		};
+		A14C43D11BC3BF2F00F5508B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14C437F1BC2DF3C00F5508B /* Advanced Transition Engine Demo */;
+			targetProxy = A14C43D01BC3BF2F00F5508B /* PBXContainerItemProxy */;
+		};
+		A14C43D71BC3BF2F00F5508B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A14C43C21BC3BF2E00F5508B /* ATE */;
+			targetProxy = A14C43D61BC3BF2F00F5508B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A14C43861BC2DF3C00F5508B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14C43871BC2DF3C00F5508B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A14C438B1BC2DF3C00F5508B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14C438C1BC2DF3C00F5508B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A14C43771BC2DF1C00F5508B /* Debug */ = {
@@ -164,7 +657,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -200,7 +693,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -225,6 +718,149 @@
 			};
 			name = Release;
 		};
+		A14C43A61BC2DF3C00F5508B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Advanced Transition Engine Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niveusrosea.Advanced-Transition-Engine-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Advanced Transition Engine Demo/Advanced-Transition-Engine-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A14C43A71BC2DF3C00F5508B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Advanced Transition Engine Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niveusrosea.Advanced-Transition-Engine-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Advanced Transition Engine Demo/Advanced-Transition-Engine-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A14C43A91BC2DF3C00F5508B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Advanced Transition Engine DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niveusrosea.Advanced-Transition-Engine-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced Transition Engine Demo.app/Advanced Transition Engine Demo";
+			};
+			name = Debug;
+		};
+		A14C43AA1BC2DF3C00F5508B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Advanced Transition Engine DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niveusrosea.Advanced-Transition-Engine-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced Transition Engine Demo.app/Advanced Transition Engine Demo";
+			};
+			name = Release;
+		};
+		A14C43AC1BC2DF3C00F5508B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Advanced Transition Engine DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niveusrosea.Advanced-Transition-Engine-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Advanced Transition Engine Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A14C43AD1BC2DF3C00F5508B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Advanced Transition Engine DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niveusrosea.Advanced-Transition-Engine-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Advanced Transition Engine Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		A14C43DB1BC3BF2F00F5508B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ATE/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niveusrosea.ATE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A14C43DC1BC3BF2F00F5508B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ATE/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niveusrosea.ATE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A14C43DF1BC3BF2F00F5508B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ATETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niveusrosea.ATETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced Transition Engine Demo.app/Advanced Transition Engine Demo";
+			};
+			name = Debug;
+		};
+		A14C43E01BC3BF2F00F5508B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ATETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niveusrosea.ATETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced Transition Engine Demo.app/Advanced Transition Engine Demo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -244,6 +880,52 @@
 				A14C437B1BC2DF1C00F5508B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14C43A51BC2DF3C00F5508B /* Build configuration list for PBXNativeTarget "Advanced Transition Engine Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14C43A61BC2DF3C00F5508B /* Debug */,
+				A14C43A71BC2DF3C00F5508B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14C43A81BC2DF3C00F5508B /* Build configuration list for PBXNativeTarget "Advanced Transition Engine DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14C43A91BC2DF3C00F5508B /* Debug */,
+				A14C43AA1BC2DF3C00F5508B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14C43AB1BC2DF3C00F5508B /* Build configuration list for PBXNativeTarget "Advanced Transition Engine DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14C43AC1BC2DF3C00F5508B /* Debug */,
+				A14C43AD1BC2DF3C00F5508B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14C43DA1BC3BF2F00F5508B /* Build configuration list for PBXNativeTarget "ATE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14C43DB1BC3BF2F00F5508B /* Debug */,
+				A14C43DC1BC3BF2F00F5508B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14C43DE1BC3BF2F00F5508B /* Build configuration list for PBXNativeTarget "ATETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14C43DF1BC3BF2F00F5508B /* Debug */,
+				A14C43E01BC3BF2F00F5508B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
